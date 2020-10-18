@@ -1,0 +1,154 @@
+#main_container{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    background-image: url(./bg/bg3.jpg);
+    background-size: 100% 100%;
+    font-family: 'Rubik', sans-serif;
+}
+#left_container{
+    float: left;
+    width: 25%;
+    height: 100vh;
+}
+#center_container{
+    float: left;
+    
+    width: 50%;
+    height: 100vh;
+}
+#right_container{
+    float: left;
+    
+    width: 25%;
+    height: 100vh;
+}
+.mod_style{
+    background-color: grey;
+    background: rgba(33, 42, 50, 0.7);
+    border-radius: 10px;
+}
+#mod_1_container{
+    width: 50%;
+    height:15%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+}
+#mod_2_container{
+    width: 80%;
+    height:20%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#welcome_statement{
+    width: 80%;
+    height:10%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+#time_container{
+    width: 100%;
+    height: 100%;
+    font-size: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#search_bar{
+    border-radius: 20px;
+    width: 80%;
+    height:5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search_in{
+    width: 79%;
+    height: 70%;
+    font-size: 100%;
+    background: none;
+    border: none;
+    float: left;
+    color: white;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+#search_in:focus{
+    outline: none;
+}
+#chrome_icon{
+    float: left;
+    height: 75%;
+    margin-top: 1%;
+    
+}
+#search_icon{
+    float: left;
+    margin-left: 2%;
+    height: 75%;
+    margin-top: 1%;
+    filter: brightness(0) invert(1);
+    opacity: .8;
+}
+#link_container{
+    width: 80%;
+    height:20%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+}
+.link_box{
+    float: left;
+    background-color: grey;
+    background: rgba(53, 53, 53, 0.5);
+    border-radius: 10px;
+    width: 20%;
+    height: 65%;
+    margin-right: 5%;
+}
+.link_icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    height: 50%;
+}
+#weather_container{
+    position: relative;
+    padding: 5%;
+}
+#weather_icon{
+    height: 15%;
+    position: absolute;
+    top:10%;
+    right:13%;
+    
+}
+#weather_header{
+    font-size: 2em;
+    position: absolute;
+    
+}
+#temp{
+    position: absolute;
+    top:7vh;
+    right: 20%;
+    font-size: 4em;
+}
+#temp_subtext{
+    position: absolute;
+    top:8.5vh;
+    right: 10%;
+    font-size: 1.5em;
+}
